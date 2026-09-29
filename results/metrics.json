@@ -1,0 +1,80 @@
+{
+  "title": "Predictive Employee Churn",
+  "class_names": [
+    "Stayed",
+    "Left"
+  ],
+  "input_file": "hr.csv",
+  "input_sha256": "2510e274a90547f34c7b0db5a4ab70282c2710eb54252f14921bf980b81a928c",
+  "rows_read": 14999,
+  "rows_used": 11991,
+  "duplicates_removed": 3008,
+  "conflicting_rows_removed": 0,
+  "split_strategy": "stratified 60/20/20 after deduplication",
+  "seed": 42,
+  "selected_model": "random_forest",
+  "selected_threshold": 0.4884084965667514,
+  "selection_metric": "average_precision",
+  "threshold_objective": "validation F1",
+  "splits": {
+    "train": {
+      "rows": 7194,
+      "positives": 1195
+    },
+    "validation": {
+      "rows": 2398,
+      "positives": 398
+    },
+    "test": {
+      "rows": 2399,
+      "positives": 398
+    }
+  },
+  "test": {
+    "model": "random_forest",
+    "split": "test",
+    "average_precision": 0.9595448315366001,
+    "roc_auc": 0.9804657972521277,
+    "log_loss": 0.08516718652573989,
+    "brier_score": 0.017643622488240952,
+    "accuracy": 0.9808253438932889,
+    "precision": 0.9782608695652174,
+    "recall": 0.9045226130653267,
+    "f1": 0.9399477806788512,
+    "threshold": 0.4884084965667514,
+    "tn": 1993,
+    "fp": 8,
+    "fn": 38,
+    "tp": 360,
+    "alerts": 368,
+    "positive_rate": 0.16590245935806586,
+    "rows": 2399
+  },
+  "baseline_test": {
+    "model": "baseline",
+    "split": "test",
+    "average_precision": 0.16590245935806586,
+    "roc_auc": 0.5,
+    "log_loss": 0.449329316130787,
+    "brier_score": 0.13837887667942272,
+    "accuracy": 0.8340975406419341,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "threshold": 0.5,
+    "tn": 2001,
+    "fp": 0,
+    "fn": 398,
+    "tp": 0,
+    "alerts": 0,
+    "positive_rate": 0.16590245935806586,
+    "rows": 2399
+  },
+  "python": "3.13.2",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

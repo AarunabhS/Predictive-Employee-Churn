@@ -1,0 +1,11 @@
+department,count,attrition_rate
+IT,583,0.16981132
+RandD,432,0.10879630
+accounting,369,0.17886179
+hr,353,0.19263456
+management,243,0.10699588
+marketing,397,0.17380353
+product_mng,421,0.14489311
+sales,1924,0.17827443
+support,1105,0.16018100
+technical,1367,0.17483541

@@ -1,0 +1,10 @@
+{
+  "dataset_source": "Public HR_comma_sep.csv benchmark, distributed by liujiaqi on Kaggle",
+  "dataset_page": "https://www.kaggle.com/datasets/liujiaqi/hr-comma-sepcsv",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/liujiaqi/hr-comma-sepcsv",
+  "source_sha256": "8f8e9aec8a8239b30844b0e1abe9353ccc14422182aa75764d25dc4df0edded1",
+  "local_file": "hr.csv",
+  "local_sha256": "2510e274a90547f34c7b0db5a4ab70282c2710eb54252f14921bf980b81a928c",
+  "licence": "CC0: Public Domain, as stated in Kaggle dataset metadata",
+  "preparation": "14,999 HR benchmark rows with satisfaction, evaluation, workload, tenure, accidents, promotion, department, salary, and `left` labels. This matches the schema and row count used in the historical notebook. There are 3,008 exact duplicate rows; deduplication leaves 11,991. Dataset source provenance is limited: the file is a public teaching benchmark, not verified records of a named employer. A different IBM HR ZIP was present locally, but its schema did not match this project; it was left untouched."
+}
