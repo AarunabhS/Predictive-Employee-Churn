@@ -1,0 +1,42 @@
+{
+  "project": "Predictive-Employee-Churn",
+  "source_directory": "results/phase2",
+  "source_sha256": {
+    "metrics.json": "97eb3c80e5d6e073e283bbaf4b8c7692f97493c5f909ee891beb21f8a2f631df",
+    "predictions.csv": "80aa4619fd442cac65828c27550b0da7552e1d51c09adeb577afdec4f56d6d58",
+    "metrics.csv": "721f0ced91c0ce7e7bb7e62ac3db0a610070de5bb0816f0e7d6025a369a9a8a0",
+    "importance_stability.csv": "b61c1b16190ec27d4a4008e7336c7ef8eac36b8fadf003a4a1dbb04a92b1b007",
+    "importance_by_fold.csv": "8a7ff21f98b4d39f9c7ce9cd6c29e64fae74c7977680c535e25593f2eda3b471",
+    "subgroup_errors.csv": "6f06a51e6d78585eb47e32227899e088c1e51de3d73ae0278c2c1dbbc94ac4ef",
+    "reliability.csv": "e65c48c88d044a25fd80a8354cf775ccf04d4676a886db7043693368f9d72859"
+  },
+  "model": "random_forest_sigmoid",
+  "model_refitted": false,
+  "network_requests": 0,
+  "deleted_files": [],
+  "checks": "Counts, selected metrics and key policy points checked against recorded metrics; figure labels checked for clipping.",
+  "charts": [
+    {
+      "chart": "churn_importance",
+      "interpretation": "Permutation importance was measured on three development validation folds. Dots are fold estimates, not confidence bounds. A predictive association does not establish a cause of departure.",
+      "png": "churn_importance.png",
+      "svg": "churn_importance.svg"
+    },
+    {
+      "chart": "churn_departments",
+      "interpretation": "Intervals are Wilson 95% intervals assuming independent rows; they do not cover company shift or undocumented feature timing. Small departure counts produce wide intervals. This is not an employee decision tool.",
+      "png": "churn_departments.png",
+      "svg": "churn_departments.svg"
+    },
+    {
+      "chart": "churn_calibration",
+      "interpretation": "Uniform-bin uncertainty is shown, so bins with few rows can look unstable. Overall log loss summarizes all rows. The data lacks a prospective prediction horizon.",
+      "png": "churn_calibration.png",
+      "svg": "churn_calibration.svg"
+    }
+  ],
+  "dashboard": [
+    "dashboard.png",
+    "dashboard.svg"
+  ]
+}

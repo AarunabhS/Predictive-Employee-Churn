@@ -1,5 +1,9 @@
 # Employee Churn Benchmark
 
+**[Colorful results gallery](results/charts/README.md)** — three charts, a project summary, and PNG/SVG exports. Reproduce with `python plot_gallery.py`.
+
+![Colorful project summary](results/charts/dashboard.png)
+
 Evaluate departure classification and explain error patterns without causal claims.
 
 **Start with the [case study](CASE_STUDY.md), [executed phase-two notebook](Churn_Phase2.ipynb), or [current results report](results/phase2/REPORT.md).**
