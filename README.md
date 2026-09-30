@@ -1,3 +1,29 @@
+# Employee Churn Benchmark
+
+Evaluate departure classification and explain error patterns without causal claims.
+
+**Start with the [case study](CASE_STUDY.md), [executed phase-two notebook](Churn_Phase2.ipynb), or [current results report](results/phase2/REPORT.md).**
+
+Average precision **0.9593**, precision **97.8%**, recall **90.5%**. Log loss **0.0763** versus baseline **0.4493**.
+
+![Current reliability and bin support](results/phase2/reliability.png)
+
+The new evaluation adds independent calibration, uncertainty intervals, three development-only stability checks,
+and auditable error analysis. Read `FEATURE_AVAILABILITY.md` before adapting the model to a company. All fields need a documented pre-departure measurement window. A validated prediction horizon requires dated employee snapshots and departure events, which this benchmark does not contain.
+
+```bash
+python -m pip install -r requirements.txt
+python fetch_data.py
+python phase2.py
+```
+
+Use a virtual environment; see [CASE_STUDY.md](CASE_STUDY.md) for the complete setup and interpretation.
+The scripts use local project caches. Every original tracked file is retained. See [CHANGELOG.md](CHANGELOG.md)
+and [AUDIT/phase2-file-changes.json](AUDIT/phase2-file-changes.json) for this pass’s changes.
+
+<details>
+<summary>Preserved phase-one benchmark and reproduction guide</summary>
+
 # Predictive Employee Churn
 
 Predict employee departure in a public HR benchmark and describe which input features the model relies on.
@@ -74,3 +100,6 @@ python -m pytest -q
 The notebook and CLI call the same implementation. Fixed seeds, pinned dependencies, and recorded input hashes
 make the published run reproducible. Generated model files are local and ignored by Git.
 See [REVIEW_NOTES.md](REVIEW_NOTES.md) for the repairs and remaining limits.
+
+
+</details>

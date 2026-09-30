@@ -1,0 +1,84 @@
+{
+  "project": "churn",
+  "input_file": "hr.csv",
+  "input_sha256": "2510e274a90547f34c7b0db5a4ab70282c2710eb54252f14921bf980b81a928c",
+  "rows_read": 14999,
+  "rows_used": 11991,
+  "duplicates_removed": 3008,
+  "conflicting_rows_removed": 0,
+  "split_strategy": "stratified 60/20/20 after deduplication",
+  "selected_model": "random_forest_sigmoid",
+  "threshold": 0.691737847835872,
+  "selection": "validation log loss",
+  "protocol": "fit 45%, independent sigmoid calibration 15%, validation 20%, test 20%; grouped or chronological where available",
+  "splits": {
+    "fit": {
+      "rows": 5395,
+      "positives": 896
+    },
+    "calibration": {
+      "rows": 1799,
+      "positives": 299
+    },
+    "validation": {
+      "rows": 2398,
+      "positives": 398
+    },
+    "test": {
+      "rows": 2399,
+      "positives": 398
+    }
+  },
+  "test": {
+    "model": "random_forest_sigmoid",
+    "split": "test",
+    "average_precision": 0.9593313413142119,
+    "roc_auc": 0.9818137413705207,
+    "log_loss": 0.07633894470466364,
+    "brier_score": 0.016533588501321965,
+    "accuracy": 0.9808253438932889,
+    "precision": 0.9782608695652174,
+    "recall": 0.9045226130653267,
+    "f1": 0.9399477806788512,
+    "threshold": 0.691737847835872,
+    "tn": 1993,
+    "fp": 8,
+    "fn": 38,
+    "tp": 360,
+    "alerts": 368,
+    "positive_rate": 0.16590245935806586,
+    "rows": 2399
+  },
+  "baseline_test": {
+    "model": "baseline",
+    "split": "test",
+    "average_precision": 0.16590245935806586,
+    "roc_auc": 0.5,
+    "log_loss": 0.44932927307564147,
+    "brier_score": 0.1383788647524719,
+    "accuracy": 0.8340975406419341,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "threshold": 0.5,
+    "tn": 2001,
+    "fp": 0,
+    "fn": 398,
+    "tp": 0,
+    "alerts": 0,
+    "positive_rate": 0.16590245935806586,
+    "rows": 2399
+  },
+  "runtime_seconds": 5.85,
+  "seed": 42,
+  "python": "3.13.2",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "stability_design": "Three development-only validation splits; final test excluded",
+  "fit_limit": "Bounded phase-one models",
+  "limits": "Benchmark redevelopment is not a newly collected external test. No production-performance or causal claims. CTR probabilities describe downsampled benchmark prevalence; natural-prevalence logs and timestamps remain unavailable."
+}

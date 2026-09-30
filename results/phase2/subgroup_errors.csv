@@ -1,0 +1,19 @@
+feature,group,rows,positives,false_positives,false_negatives,brier_score
+department,IT,190,23,0,0,0.00062464
+department,RandD,144,15,0,2,0.01441167
+department,accounting,120,22,0,2,0.01605008
+department,hr,123,22,0,2,0.01610537
+department,management,88,8,1,1,0.02223967
+department,marketing,153,22,1,2,0.01801386
+department,product_mng,135,25,1,1,0.01273023
+department,sales,657,114,2,12,0.01732843
+department,support,343,69,0,6,0.01583592
+department,technical,446,78,3,10,0.02312747
+salary,high,178,11,0,3,0.00939639
+salary,low,1157,225,5,18,0.01713962
+salary,medium,1064,162,3,17,0.01706859
+satisfaction_level,"(0.0891, 0.272]",275,113,0,5,0.01615020
+satisfaction_level,"(0.272, 0.454]",281,156,3,7,0.03073643
+satisfaction_level,"(0.454, 0.636]",575,15,0,10,0.01555234
+satisfaction_level,"(0.636, 0.818]",645,54,1,10,0.01434025
+satisfaction_level,"(0.818, 1.0]",623,60,4,6,0.01347316

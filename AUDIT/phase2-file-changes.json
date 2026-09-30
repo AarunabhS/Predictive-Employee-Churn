@@ -1,0 +1,237 @@
+{
+  "previous_head": "e2a3ce00623aabbcd1cb07bf61d2beb354fa5ad8",
+  "deleted_files": [],
+  "changes": [
+    {
+      "path": ".gitignore",
+      "action": "modified",
+      "before_sha256": "72149856bc00bafca9fd1f9cbe5aadd3d38419ad0e222d439970fca1d7865e4e",
+      "after_sha256": "8f4cf68406b2ba9efb6ae85f4e8141e431148895b1620d29399829418dd57005",
+      "bytes": 216,
+      "local_only": false
+    },
+    {
+      "path": "CASE_STUDY.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "eb438396f88f4a9e77329147c17c48bed6447f9dd17afea90410d988049bce2c",
+      "bytes": 2767,
+      "local_only": false
+    },
+    {
+      "path": "CHANGELOG.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "eb036ab8c5b1fb27c78354c87d004c54f3c7128f9169cf7306e907e99f6343b3",
+      "bytes": 921,
+      "local_only": false
+    },
+    {
+      "path": "Churn_Phase2.ipynb",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "965562a1fcd6ad2e434728d532464f335a570386c9d6b0029c1facc1ef79a5ea",
+      "bytes": 206495,
+      "local_only": false
+    },
+    {
+      "path": "FEATURE_AVAILABILITY.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "5a96d7be6d8df235d9e11b1fcabe496b4d75d871cd895621d157b6ee0b96087f",
+      "bytes": 1595,
+      "local_only": false
+    },
+    {
+      "path": "README.md",
+      "action": "modified",
+      "before_sha256": "4586e21afb3a46df850b05fdec1245f4a8fec047f30465417a233495bfd1e8f0",
+      "after_sha256": "1316fb9e491f4784017a934d44f82f31682fdbec0461211d9ef1ee1655518c65",
+      "bytes": 5536,
+      "local_only": false
+    },
+    {
+      "path": "data/PHASE2_SOURCES.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "a617b82f6c6cf486d05386dddb74ad10cbf79a2cf96e2ea8c6bd46a4c3f692c5",
+      "bytes": 710,
+      "local_only": false
+    },
+    {
+      "path": "phase2.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "ed8897cb666f2648b759e6fbb11dee094f6599c47201dff52e4b69c226779ec1",
+      "bytes": 15146,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/REPORT.md",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "f5ae5fef5fcbea9ec0be473ef15e9056153b1afd1d40ea8517ef69a931904add",
+      "bytes": 2341,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/errors.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "79f735eea987feb241483d8b7d17fc396fb619bdd6e7ee70f3d625d6fbdf68c6",
+      "bytes": 5924,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/importance_by_fold.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "8a7ff21f98b4d39f9c7ce9cd6c29e64fae74c7977680c535e25593f2eda3b471",
+      "bytes": 1115,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/importance_stability.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "b61c1b16190ec27d4a4008e7336c7ef8eac36b8fadf003a4a1dbb04a92b1b007",
+      "bytes": 487,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/metrics.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "721f0ced91c0ce7e7bb7e62ac3db0a610070de5bb0816f0e7d6025a369a9a8a0",
+      "bytes": 1738,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/metrics.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "97eb3c80e5d6e073e283bbaf4b8c7692f97493c5f909ee891beb21f8a2f631df",
+      "bytes": 2402,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/model.joblib",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "a4681c12ab84e603ca3037c0f90ae6e0e525db5ec5d73ea9673b839f93c737c6",
+      "bytes": 2548345,
+      "local_only": true
+    },
+    {
+      "path": "results/phase2/operating_policies.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "3a9d22f5f8881a00465d09a074500986723c6bb290e3722b1b0a9105a06dca58",
+      "bytes": 2274,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/predictions.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "80aa4619fd442cac65828c27550b0da7552e1d51c09adeb577afdec4f56d6d58",
+      "bytes": 180245,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/ranking.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "f8cf5ce4b55720d45e3d1e06616d0d71c959a784be983630ec5f211503a4ebf5",
+      "bytes": 64808,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/ranking_lift.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "41faa392a4f4b68f14e97547d4b25e64d065665edff96e1eef9714ae4952bb3e",
+      "bytes": 400,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/reliability.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "e65c48c88d044a25fd80a8354cf775ccf04d4676a886db7043693368f9d72859",
+      "bytes": 3036,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/reliability.png",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "8e8984718c415f15c274a1c34dca5cd3d47e9aa49d69562b8afe15ffe222cb12",
+      "bytes": 116026,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/splits.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "dcef661d8ce145e656690101efdc303e6ee7b813d98633152d6acca33018cecf",
+      "bytes": 166378,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/subgroup_errors.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "6f06a51e6d78585eb47e32227899e088c1e51de3d73ae0278c2c1dbbc94ac4ef",
+      "bytes": 886,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/uncertainty.json",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "1155883b5b1bb8f60714165c04ba8731970d6eb4f086f46cca7514e6dbf7e963",
+      "bytes": 900,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/validation_predictions.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "84a85f5a5d16baa487b0d5fd53eb66fc31db2c158c107ff1fc6238d44a360ac7",
+      "bytes": 43386,
+      "local_only": false
+    },
+    {
+      "path": "results/phase2/validation_stability.csv",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "c7cbb9da419c656dcebb6a2de7058d560636aa99bdfcdd1fc013a066ce2a7e99",
+      "bytes": 622,
+      "local_only": false
+    },
+    {
+      "path": "review_tools.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "63aaef15259be82cf70c37aa603aa6774acac70ac3c5ead3b9cd40ea3a867898",
+      "bytes": 10680,
+      "local_only": false
+    },
+    {
+      "path": "tests/test_review_tools.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "2212092af1f27641c2670646cff631e6110e99c759236aeba946c25444a1ebab",
+      "bytes": 2416,
+      "local_only": false
+    }
+  ],
+  "note": "This audit manifest excludes its own hash. Its exact bytes are recorded in the local publication receipt. Local-only inputs/models are excluded from Git.",
+  "verification": {
+    "tests_passed": 16,
+    "heldout_inference": "Verified all 2399 held-out batch predictions",
+    "executed_notebook": "7 code cells completed; no error outputs"
+  },
+  "data_sources": "data/PHASE2_SOURCES.md and data/*provenance.json"
+}
